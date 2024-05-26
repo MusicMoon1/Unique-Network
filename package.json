@@ -1,0 +1,50 @@
+{
+  "name": "musicmoon",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/material": "^5.15.13",
+    "@polkadot/api": "^10.9.1",
+    "@polkadot/extension-dapp": "^0.46.5",
+    "@polkadot/keyring": "^12.3.2",
+    "@polkadot/util-crypto": "^12.3.2",
+    "@unique-nft/accounts": "^0.3.6",
+    "@unique-nft/sdk": "^0.2.23",
+    "@unique-nft/substrate-client": "^0.8.8",
+    "@unique-nft/utils": "^0.3.14",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.2.3",
+    "ethers": "^5.7.2",
+    "firebase": "^10.8.0",
+    "lottie-react": "^2.4.0",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loading-skeleton": "^3.4.0",
+    "react-lottie": "^1.2.4",
+    "react-qr-code": "^2.0.12",
+    "react-router-dom": "^6.21.3",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^10.0.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.0.8"
+  }
+}

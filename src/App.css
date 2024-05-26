@@ -1,0 +1,61 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+#root {
+  margin: 0 auto;
+}
+
+/* overlay css */
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* end */
+
+.container {
+  perspective: 1000px;
+}
+
+.image {
+  transform-style: preserve-3d;
+  animation: rotateAnimation 10s infinite linear;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  width: 50px;
+  aspect-ratio: 4;
+  background: radial-gradient(circle closest-side, #FFD700 90%, transparent) 0/calc(100%/3) 100% space;
+  clip-path: inset(0 100% 0 0);
+  animation: l1 0.75s steps(4) infinite;
+}
+
+@keyframes l1 {
+  to {
+    clip-path: inset(0 -34% 0 0);
+  }
+}
+
+.hover-link {
+  color: #fdff8f;
+}
+
+/* hover effect on input icon */
+.hover-link:hover {
+  background-color: #fdff8f;
+  color: black;
+  /* Change text color on hover if needed */
+}
