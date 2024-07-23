@@ -19,7 +19,7 @@ import axios from "axios";
 import Sdk from "@unique-nft/sdk";
 import { KeyringProvider } from "@unique-nft/accounts/keyring";
 import { Sr25519Account } from "@unique-nft/sdk/sr25519";
-const baseUrl = "https://rest.unique.network/opal/v1";
+const baseUrl = "https://rest.unique.network/unique/v1";
 // Profile Creation Functions
 // https://rest.unique.network/opal/v1
 // https://rest.unique.network/unique/v1

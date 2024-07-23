@@ -18,7 +18,7 @@ import { KeyringProvider } from '@unique-nft/accounts/keyring';
 import { getAlluser } from '../../../Backend/Backend';
 // https://rest.unique.network/opal/v1
 // https://rest.unique.network/unique/v1
-const baseUrl = 'https://rest.unique.network/opal/v1';
+const baseUrl = 'https://rest.unique.network/unique/v1';
 const sideBarWidth = 256;
 
 const style = {
