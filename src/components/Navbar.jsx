@@ -29,7 +29,9 @@ import mens from "../assets/mens.png";
 import { theme } from "../utils/Theme";
 import { Link, useLocation } from "react-router-dom";
 import Sdk from '@unique-nft/sdk';
-const baseUrl = 'https://rest.unique.network/unique/v1';
+// https://rest.unique.network/opal/v1
+// https://rest.unique.network/unique/v1
+const baseUrl = 'https://rest.unique.network/opal/v1';
 import { KeyringProvider } from '@unique-nft/accounts/keyring';
 import { useAuthcontexts } from "../context/Authcontexts";
 import { signOut } from "firebase/auth";
